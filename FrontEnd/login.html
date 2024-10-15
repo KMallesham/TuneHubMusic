@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+    body
+    {
+        background-color: rgb(8, 11, 14);
+        background-image: url(logo.jpg);
+
+    }
+
+    form
+    {
+        display: block;
+       
+        height: 250px;
+        width: 300px;
+       margin-top: 50px;
+       margin-left: 600px;
+
+       border-color: rgb(57, 146, 146);
+       border-width: 10px;
+       border: 2px;
+       background-color:aliceblue ;
+       
+       padding-top: 50px;
+       padding-left: 50px;
+       
+       color: #3626c6;
+       font-weight: bold;
+       font-size: 15px;
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+       
+
+    }
+
+
+    .sub
+    {
+        height: 20px;
+       width :90px; 
+       
+        display: inline-block;
+        margin-top: 40px;
+        margin-left: 70px;;
+        border-color: rgb(57, 146, 146);
+       border-width: 10px;
+       border: 2px;
+       background-color:rgb(61, 153, 234) ;
+       
+       text-decoration: none;
+
+       color: #3626c6;
+       font-weight: bold;
+       font-size: 15px;
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+       padding-left: 15px;
+        
+    }
+    
+    h1
+    {
+        font-size: 25px;
+    }
+</style>
+</head>
+<body>
+
+
+<form action="validate" method="post">
+		
+    <h1>Login Your Details !</h1>
+		<label >Email : </label>
+		<input type = "email" name = "email"/>
+		<br><br>
+		<label >Password : </label>
+		<input type  = "password" name = "password"/>
+		<br>
+		
+		<input type="submit" value="LOGIN" class="sub"/>
+				
+	</form>
+</body>
+</html>
